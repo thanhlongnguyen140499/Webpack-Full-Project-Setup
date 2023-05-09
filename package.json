@@ -1,0 +1,20 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhlongnguyen140499/Webpack-Full-Project-Setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhlongnguyen140499/Webpack-Full-Project-Setup/issues"
+  },
+  "homepage": "https://github.com/thanhlongnguyen140499/Webpack-Full-Project-Setup#readme"
+}
