@@ -1,20 +1,13 @@
 {
-  "name": "webpack-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack --mode=production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thanhlongnguyen140499/Webpack-Full-Project-Setup.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thanhlongnguyen140499/Webpack-Full-Project-Setup/issues"
-  },
-  "homepage": "https://github.com/thanhlongnguyen140499/Webpack-Full-Project-Setup#readme"
+  "dependencies": {
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  }
 }
