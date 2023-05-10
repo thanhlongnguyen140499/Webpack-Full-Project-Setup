@@ -1,16 +1,15 @@
-import "./styles/index.scss";
+import React from "react";
+import App from "./components/App";
+import { createRoot } from "react-dom/client";
 
-const elvenShieldRecipe = {
-  leatherStrips: 2,
-  ironIngot: 1,
-  refinedMoonstone: 4,
-};
+import render from "react-dom";
 
-const elvenGuantletsRecipe = {
-  ...elvenShieldRecipe,
-  leather: 1,
-  refinedMoonstone: 4,
-};
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
 
-console.log(elvenShieldRecipe);
-console.log(elvenGuantletsRecipe);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+// render(<App />, document.getElementById("root"));
