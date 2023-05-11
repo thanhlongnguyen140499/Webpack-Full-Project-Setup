@@ -4,7 +4,8 @@
     "start": "webpack serve --mode=development",
     "watch": "webpack --watch",
     "build": "NODE_ENV=production webpack",
-    "build-dev": "NODE_ENV=development webpack"
+    "build-dev": "NODE_ENV=development webpack",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "react": "^18.2.0",
